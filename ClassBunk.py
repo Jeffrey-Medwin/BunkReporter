@@ -23,13 +23,13 @@ for cls in mylist:
 print(classname)
 
 def sendSMS(name):
-   account_sid = "ACed5dd0d65265247326751f90eb5e5e64"
-   auth_token = "bfa1d55ee82e6a86d830e436376f6f89"
+   account_sid = "AC0d211a1b3bbfa83889c8fdb96c6f626c"
+   auth_token = "3445eda1548535823c18f40b6853a1fa"
    client = Client(account_sid, auth_token)
    message = client.messages.create(
                              body = name+' Spotted out side the class',
-                             from_ = '+12407700020',
-                             to = '+919786251495'
+                             from_ = '+12706123142',
+                             to = '+918056498279'
                          )
 
 
